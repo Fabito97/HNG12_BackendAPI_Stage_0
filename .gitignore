@@ -1,1 +1,52 @@
-.vs
+# .NET build results
+bin/
+obj/
+
+# User-specific files for Visual Studio
+.vs/
+.vscode/
+
+# ASP.NET temporary files
+wwwroot/
+
+# User-specific files for Visual Studio for Mac (if applicable)
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Thumbs.db (Windows Explorer generated files)
+Thumbs.db
+
+# Windows Installer log files
+*.cab
+
+# Rider (if using JetBrains Rider)
+.idea/
+
+# Visual Studio for Mac project settings
+.vscode/
+
+# Logs from dotnet commands
+*.log
+
+# User-specific configuration files (for example, Rider, Visual Studio, etc.)
+.vsconfig
+
+# Azure Functions local settings (if applicable)
+local.settings.json
+
+# Entity Framework migrations snapshot (optional if used for EF migrations)
+App_Data/
+
+# npm modules (if using frontend assets or JavaScript)
+node_modules/
+
+# npm debug log files (if applicable)
+npm-debug.log
+
+# YARN errors (if using YARN)
+yarn-error.log
