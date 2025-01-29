@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using static System.Net.WebRequestMethods;
 
 namespace HNG12BackendAPIStage0.Controllers
 {
@@ -14,7 +15,7 @@ namespace HNG12BackendAPIStage0.Controllers
             {
                 Email = "fabbenco97@gmail.com",
                 CurrentDate = DateTime.UtcNow.ToString("yyyy-MM-ddTHH-mm-ssZ"),
-                GithubURL = "http://github.com/fabito97",
+                GithubURL = "https://github.com/Fabito97/HNG12_BackendAPI_Stage_0",
             };
 
             return Ok(info);
