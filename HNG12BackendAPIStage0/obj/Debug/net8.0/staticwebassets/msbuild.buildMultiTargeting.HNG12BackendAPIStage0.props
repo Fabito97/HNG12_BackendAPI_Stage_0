@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HNG12BackendAPIStage0.props" />
+</Project>

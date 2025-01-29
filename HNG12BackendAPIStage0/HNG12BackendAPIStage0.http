@@ -1,0 +1,6 @@
+@HNG12BackendAPIStage0_HostAddress = http://localhost:5122
+
+GET {{HNG12BackendAPIStage0_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
