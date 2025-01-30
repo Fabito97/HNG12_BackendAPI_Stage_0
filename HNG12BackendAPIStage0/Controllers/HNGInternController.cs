@@ -14,7 +14,7 @@ namespace HNG12BackendAPIStage0.Controllers
             var info = new
             {
                 Email = "fabbenco97@gmail.com",
-                CurrentDate = DateTime.UtcNow.ToString("yyyy-MM-ddTHH-mm-ssZ"),
+                CurrentDate = DateTime.UtcNow,
                 GithubURL = "https://github.com/Fabito97/HNG12_BackendAPI_Stage_0",
             };
 
