@@ -30,3 +30,4 @@ C:\Users\FABIAN\source\repos\HNG12BackendAPIStage0\HNG12BackendAPIStage0\obj\Deb
 C:\Users\FABIAN\source\repos\HNG12BackendAPIStage0\HNG12BackendAPIStage0\obj\Debug\net8.0\HNG12BackendAPIStage0.pdb
 C:\Users\FABIAN\source\repos\HNG12BackendAPIStage0\HNG12BackendAPIStage0\obj\Debug\net8.0\HNG12BackendAPIStage0.genruntimeconfig.cache
 C:\Users\FABIAN\source\repos\HNG12BackendAPIStage0\HNG12BackendAPIStage0\obj\Debug\net8.0\ref\HNG12BackendAPIStage0.dll
+C:\Users\FABIAN\source\repos\HNG12BackendAPIStage0\HNG12BackendAPIStage0\obj\Debug\net8.0\HNG12BackendAPIStage0.sourcelink.json

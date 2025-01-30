@@ -1,4 +1,6 @@
 
+using System.Net;
+
 namespace HNG12BackendAPIStage0
 {
     public class Program
@@ -24,6 +26,11 @@ namespace HNG12BackendAPIStage0
                 });
             });
 
+            builder.WebHost.ConfigureKestrel(options =>
+            {
+                options.Listen(IPAddress.Any, 80);  // Listening on all IPs and port 5000
+            });
+
             var app = builder.Build();
 
             app.UseCors();
@@ -35,7 +42,7 @@ namespace HNG12BackendAPIStage0
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseAuthorization();
 

@@ -4,7 +4,7 @@ using static System.Net.WebRequestMethods;
 
 namespace HNG12BackendAPIStage0.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/hngintern")]
     [ApiController]
     public class HNGInternController : ControllerBase
     {
