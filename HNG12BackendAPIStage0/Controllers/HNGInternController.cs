@@ -11,14 +11,14 @@ namespace HNG12BackendAPIStage0.Controllers
         [HttpGet]
         public IActionResult GetInfo()
         {
-            var info = new
+            var response = new 
             {
-                Email = "fabbenco97@gmail.com",
-                CurrentDate = DateTime.UtcNow,
-                GithubURL = "https://github.com/Fabito97/HNG12_BackendAPI_Stage_0",
+                email = "fabbenco97@gmail.com",
+                current_datetime = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ"),
+                github_url = "https://github.com/Fabito97/HNG12_BackendAPI_Stage_0",
             };
 
-            return Ok(info);
+            return Ok(response);
         }
     }
 }

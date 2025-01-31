@@ -30,7 +30,7 @@ The goal of this project is to create an endpoint that serves this information i
    dotnet run
    ```
 
-5. Visit [https://hng12-backendapi-stage-0.onrender.com/api/hngintern](https://hng12-backendapi-stage-0.onrender.com/api/hngintern) to view the API in action.
+5. Visit [https://hng12-backendapi-stage-0.onrender.com/hngintern](https://hng12-backendapi-stage-0.onrender.com/hngintern) to view the API in action.
 
 ## API Documentation
 
